@@ -1,0 +1,44 @@
+#######################################
+# Syntax Highlighting Map For LidarProject
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+StepperMaster	KEYWORD1	StepperMaster
+LidarMaster	KEYWORD1	LidarMaster
+Gimbal	KEYWORD1	Gimbal
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+#StepperMaster
+rotate	KEYWORD2
+setStepPosition	KEYWORD2
+getStepPosition	KEYWORD2
+sequence	KEYWORD2
+setAbsoluteAngle	KEYWORD2
+getAbsoluteAngle	KEYWORD2
+setMinInterval	KEYWORD2
+getMinInterval	KEYWORD2
+
+#LidarMaster
+getDistance	KEYWORD2
+getAmp	KEYWORD2
+getTemperatur	KEYWORD2
+getAdress	KEYWORD2
+
+#Gimbal
+rotateTo	KEYWORD2
+returnToHome	KEYWORD2
+anglTouSec	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+#StepperMaster 
+CLOCKWISE	LITERAL1
+COUNTERCLOCKWISE	LITERAL1
